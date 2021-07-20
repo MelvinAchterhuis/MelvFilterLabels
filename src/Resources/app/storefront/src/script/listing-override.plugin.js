@@ -1,7 +1,7 @@
 import ListingPlugin from 'src/plugin/listing/listing.plugin'
 import DomAccess from 'src/helper/dom-access.helper';
 
-export default class ListingPluginOverride extends ListingPlugin {
+export default class ListingOverridePlugin extends ListingPlugin {
 
     /**
      * Template for an active filter label.
