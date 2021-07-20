@@ -1,0 +1,31 @@
+{
+    "name": "melvinachterhuis/property-labels-shopware6-plugin",
+    "description": "Show labels for selected properties in the filtering",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melvin Achterhuis"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Melv\\FilterLabels\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Melv\\FilterLabels\\MelvFilterLabels",
+        "label": {
+            "de-DE": "Filter labels",
+            "en-GB": "Filter labels"
+        },
+        "description": {
+            "de-DE": "Show labels for selected properties in the filtering",
+            "en-GB": "Show labels for selected properties in the filtering"
+        }
+    }
+}
